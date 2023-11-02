@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Celal Bayar Üniversitesi</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <img src="img/dded898989937ca469f617d2460f4941.jpg" id="logo">
+    <h2 style="color:rgb(250, 252, 252)" id="adı">Celal Bayar Üniversitesi Teknik Bilimler MYO</h2>
+
+    <a href="https://manisamyo.mcbu.edu.tr/">Anasayfa</a>
+    <a href="https://manisamyo.mcbu.edu.tr/akademik-personel/akademik-personel-bolum-listesi.36463.tr.html">Akademik
+      Kadro</a>
+    <a href="https://manisamyo.mcbu.edu.tr/iletisim/ulasim.34318.tr.html">İletişim</a>
+
+  </nav>
+
+  <form name="Kayıt" action="Kayıt.php" method="get">
+    <table>
+
+      <tr>
+        <td>TC Kimlik:</td>
+        <td> <input type="text" name="adsoyad" required></td>
+      </tr>
+      <tr>
+        <td>E-Mail:</td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td>Doğum Tarihi:</td>
+        <td> <input type="date" name="doğumtarihi" required></td>
+      </tr>
+      <tr>
+        <td>Geldiğiniz İl</td>
+        <td><select name="Geldiği Yer">
+            <option>İzmir</option>
+            <option>Adana</option>
+            <option>Manisa</option>
+            <option>İstanbul</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="checkbox" name="okudumonaylıyom"> Bilgilerim Doğrudur</td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="image" src="/img/giris-yap2022.jpg" id="giris" width="150" height="45"></td>
+      </tr>
+    </table>
+  </form>
+
+
+</body>
+
+
+</html>
